@@ -21,10 +21,10 @@ class Question
     end
   end
 
-  def to_s
+  def ask
     "What is #{@first_num} #{@operator} #{@second_num}?"
   end
-  
+
   def right_answer?(user_input)
     user_input == @answer
   end

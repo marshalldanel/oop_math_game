@@ -12,4 +12,8 @@ class Player
     @lives -= 1
   end
 
+  def show_life
+    "#{name}: #{lives} Remaining Lives"
+  end
+    
 end
